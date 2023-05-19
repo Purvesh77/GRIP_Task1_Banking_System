@@ -1,0 +1,106 @@
+html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+
+/* navbar css starts here  */
+.bg-light{
+  background-color: #144bf1!important;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman';
+    font-size: 2.5rem;
+    color: #ffffff!important;
+}
+
+
+.nav-link{
+    color: #fcfcfc!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+  background-color: #3bfff8;
+  color: #000000!important;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+  width: 100%;
+  height: auto;
+  min-height: 750px;
+  height: 120%;
+  background-image:url('../media/Online_Tran.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 200px 0 300px 0;
+}
+
+.hero-img{
+    height: 68vh;
+    width: 83%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #002466!important;
+    transition: 0.3s;
+    margin-left: -70px;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #2338f7;
+    color: #fff!important;    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #4124e6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
